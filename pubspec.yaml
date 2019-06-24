@@ -10,7 +10,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  path_provider: "^1.1.0"
+  path_provider:
+    git:
+      url: https://github.com/kaashyapan/plugins.git
+      path: packages/path_provider
   uuid:  "^2.0.0"
   http: ">=0.11.0 < 0.13.0"
   path: "^1.6.2"
