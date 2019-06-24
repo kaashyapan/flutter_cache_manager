@@ -10,6 +10,9 @@ import com.tekartik.sqflite.SqflitePlugin;
  */
 public final class GeneratedPluginRegistrant {
   public static void registerWith(PluginRegistry registry) {
+     if (registry.activity() == null) {
+        return;
+    }
     if (alreadyRegisteredWith(registry)) {
       return;
     }
